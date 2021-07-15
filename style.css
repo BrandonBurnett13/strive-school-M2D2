@@ -12,3 +12,7 @@
         opacity: 1;
      }
 }
+
+.tbody .button:hover{
+        animation: fadeIn;
+}
