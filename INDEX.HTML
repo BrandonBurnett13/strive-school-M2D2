@@ -9,7 +9,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">My Favourite Songs </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,6 +28,7 @@
           </ul>
         </div>
       </nav>
+
       <div class="jumbotron">
         <h1 class="display-4">My favourite albums</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -37,41 +38,150 @@
           <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </p>
       </div>
+
       <div class="container-lg" style="background-color: #ebebeb; margin-top: 20px ;margin-bottom: 20px;">
     <h1>My favourite albums</h1>
         </div>  
     <div class="container">
         <div class="row">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+            <div class="card">
                 <img src="https://upload.wikimedia.org/wikipedia/en/2/2a/2014ForestHillsDrive.jpg" class="card-img-top" alt="...">
                 <div class="card-body" >
-                  <h5 class="card-title">Forest Hill drive</h5>
+                  <span class="badge badge-secondary">Rap</span>
+                  <h5 class="card-title">2014 Forest Hill drive</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;">
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+              <div class="card">
                 <img src="https://media.pitchfork.com/photos/5929ad4cea9e61561daa60ba/1:1/w_600/d47a5880.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                  <span class="badge badge-secondary">Rap</span>
                   <h5 class="card-title">To Pimp A Butterfly</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;">
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+              <div class="card">
+                
                 <img src="https://media.pitchfork.com/photos/5dc5edf6ddb62f0008c2dd17/1:1/w_600/ghettogospel.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                  <span class="badge badge-secondary">Rap</span>
                   <h5 class="card-title">Ghetto Gospel</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-                </div>
-                <div class="card" style="width: 18rem;">
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+                <div class="card">
+                  
                   <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/Meagainsttheworldcover.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
+                    <span class="badge badge-secondary">Rap</span>
                     <h5 class="card-title">Me against the world</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
                   </div>
+              </div> 
         </div>
       </div>
+
+    <div class="containerTable mt-20">
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Track Name</th>
+            <th scope="col">Album</th>
+            <th scope="col">Track Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-danger text-dark">
+            <th scope="row">1</th>
+            <td>Intro</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-dark ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-primary text-dark">
+            <th scope="row">2</th>
+            <td>January 28th</td>
+            <td>201 4Fores tHills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Danger</button></td>
+          </tr>
+          <tr class="bg-success text-dark">
+            <th scope="row">3</th>
+            <td>Wet Dreams</td>
+            <td>2014ForestHillsDrive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Danger</button></td>
+          </tr>
+          <tr class="bg-warning text-dark">
+            <th scope="row">4</th>
+            <td>03' Adolesence</td>
+            <td>2014ForestHillsDrive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-info text-dark">
+            <th scope="row">5</th>
+            <td>A tale of 2 citiez</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-danger text-dark">
+            <th scope="row">6</th>
+            <td>fire squad</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-dark ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-primary text-dark">
+            <th scope="row">7</th>
+            <td>st. tropez</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-success text-dark">
+            <th scope="row">8</th>
+            <td>G.O.M.D</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-warning text-dark">
+            <th scope="row">9</th>
+            <td>No role modelz</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-info text-dark">
+            <th scope="row">10</th>
+            <td>Hello</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-danger text-dark">
+            <th scope="row">11</th>
+            <td>Apparently</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-dark ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-primary  text-dark">
+            <th scope="row">12</th>
+            <td>Love yourz</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+          <tr class="bg-success  text-dark">
+            <th scope="row">13</th>
+            <td>Note to self</td>
+            <td>2014 Forest Hills Drive</td>
+            <td>3 mins <button type="button" class="btn btn-danger ml-5">Delete</button></td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
